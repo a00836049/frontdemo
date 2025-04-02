@@ -11,15 +11,15 @@ const Dashboard = () => {
   return (
     <div style={{ padding: "20px" }}>
       <header style={{ marginBottom: "20px" }}>
-        <h1>Dashboard - Student Enrollment</h1>
+        <h1>Dashboard - De alumnos del TEC</h1>
       </header>
       <section>
-        <h2>Enrollment Data</h2>
+        <h2>Año de ingreso</h2>
         <table border="1" style={{ width: "100%", textAlign: "center" }}>
           <thead>
             <tr>
-              <th>Year</th>
-              <th>Number of Students</th>
+              <th>Año</th>
+              <th>Numero de Estudiantes</th>
             </tr>
           </thead>
           <tbody>
